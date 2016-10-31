@@ -1,3 +1,37 @@
+a {
+  color: red;
+}
+
+body > header {
+  background: black;
+  color: white;
+}
+
+body > header h1 {
+  margin-top: 0;
+  padding-left: 1rem;
+  padding-top: 0.67em; /*to imitate normalize*/
+}
+
+body > header h3 {
+  color: grey;
+  padding-left: 1rem;
+}
+
+#call-to-action {
+  float: right;
+}
+
+nav {
+  background: grey;
+  padding: 1em;
+}
+
+nav a {
+  color: purple;
+  padding: 1em;
+}
+
 main > section {
   float: left;
   width: 70%;
@@ -9,5 +43,12 @@ aside {
 }
 
 footer {
+  background: black;
+  color: white;
   clear: both;
+  font-size: 0.9rem;
+}
+
+.copyright {
+  text-align: center;
 }
