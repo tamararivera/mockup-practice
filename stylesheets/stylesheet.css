@@ -60,6 +60,15 @@ aside section {
   overflow: auto;
 }
 
+aside section h2, h3 {
+  text-align: center;
+}
+
+aside section img {
+  display: block;
+  margin: 0 auto;
+}
+
 .book-now {
   float: right;
 }
