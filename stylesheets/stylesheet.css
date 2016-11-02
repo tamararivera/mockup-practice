@@ -34,7 +34,13 @@ nav a {
 
 main > section {
   float: left;
-  width: 70%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 65%;
+}
+
+blockquote {
+  font-style: italic;
 }
 
 aside {
