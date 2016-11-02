@@ -20,6 +20,7 @@ body > header h3 {
 
 #call-to-action {
   float: right;
+  padding-right: 1rem;
 }
 
 nav {
@@ -30,6 +31,11 @@ nav {
 nav a {
   color: purple;
   padding: 1em;
+}
+
+main {
+  margin: 1rem;
+  overflow: auto;
 }
 
 main > section {
@@ -45,7 +51,17 @@ blockquote {
 
 aside {
   float: right;
-  width: 30%;
+  width: 29%;
+  border: 1px solid black;
+  padding: 2rem 1rem;
+}
+
+aside section {
+  overflow: auto;
+}
+
+.book-now {
+  float: right;
 }
 
 footer {
