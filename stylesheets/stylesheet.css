@@ -60,7 +60,7 @@ aside section {
   overflow: auto;
 }
 
-aside section h2, h3 {
+aside section h2, aside section h3 {
   text-align: center;
 }
 
