@@ -73,11 +73,16 @@ aside section img {
   float: right;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 footer {
   background: black;
   color: white;
   clear: both;
   font-size: 0.9rem;
+  padding-left: 1rem;
 }
 
 .copyright {
